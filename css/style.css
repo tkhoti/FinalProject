@@ -356,3 +356,82 @@ h2, .sec1-spanh {
 }
 
 
+/* Shopping */
+
+.div-shopping {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: space-evenly;
+}
+
+.shop {
+    height: 185px;
+    width: 400px;
+    box-shadow: 5px 10px 8px #DEDEDE;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.department {
+    color: #000000;
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:   'Arvo', serif;
+    
+}
+
+.department::after{
+    color: #484848;
+    font-size: 20px;
+    font-family:   'Arvo', serif;
+    display: block;
+
+}
+
+.dep1::after {
+    content: '12 brands';
+}
+
+
+.dep2::after {
+    content: '7 brands';
+}
+
+
+.dep3::after {
+    content: '10 brands';
+}
+
+
+.dep4::after {
+    content: '13 brands';
+}
+
+
+.dep5::after {
+    content: '9 brands';
+}
+
+
+.dep6::after {
+    content: '10 brands';
+}
+
+
+.dep7::after {
+    content: '2 brands';
+}
+
+
+.dep8::after {
+    content: '5 brands';
+}
+
+.shop-img {
+    height: 70%;
+}
+

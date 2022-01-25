@@ -366,9 +366,14 @@ h2, .sec1-spanh {
 
 .buy-ticket:hover, .buy-ticket2:hover {
     
-    background-color:  #C69A63;
+    background-color:  #FFFFFF;
+    border: 3px solid #FFC80A;
 
 }
+
+.buy-ticket:hover .buy, .buy-ticket2:hover .buy  {
+    color: #FFC80A;
+} 
 
 
 
@@ -565,4 +570,12 @@ h2, .sec1-spanh {
     font-size: 20px;
     font-family:   'Arvo', serif;
     margin-bottom: 35px;
+}
+
+
+/* footer */
+
+footer {
+    height: 200px;
+    background-color: aliceblue;
 }

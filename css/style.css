@@ -34,7 +34,7 @@ header {
 
 
 
-/* Sectio 1 */
+/* Section 1 */
 
 .welcome-div {
     display: flex;
@@ -68,10 +68,12 @@ h2, .sec1-spanh {
 }
 
 .sec1-div{
-    display: flex;
-    justify-content: space-around;
-    height: 780px;
-    margin: 30px;
+    background-image: url('../images/cafe.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: auto;
+    margin: 30px 10px;
     position: relative;
 }
 
@@ -277,6 +279,7 @@ h2, .sec1-spanh {
     margin-top: 30px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .movie {
@@ -356,22 +359,37 @@ h2, .sec1-spanh {
 }
 
 
+.fa-arrow-circle-right {
+    color: #FFC80A;
+    font-size: 60px;
+}
+
+.buy-ticket:hover, .buy-ticket2:hover {
+    
+    background-color:  #C69A63;
+
+}
+
+
+
+
 /* Shopping */
 
 .div-shopping {
     display: flex;
     flex-wrap: wrap;
-    margin: 50px;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .shop {
     height: 185px;
-    width: 400px;
+    width: 22%;
     box-shadow: 5px 10px 8px #DEDEDE;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 30px;
 
 }
 
@@ -435,3 +453,62 @@ h2, .sec1-spanh {
     height: 70%;
 }
 
+.brands {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* Restaurants */
+
+.div-restaurants {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.restaurant {
+    width: 400px;
+    height: 375px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 5px 10px 8px #DEDEDE;
+}
+
+.h-restaurant {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:   'Arvo', serif;
+
+}
+
+.h-restaurant::before {
+    content: '';
+    height: 1.5px;
+    width: 25%;
+    background-color: #FFC80A;
+    display: flex;
+    margin: 10px 0;
+}
+
+.rest-tel, .rest-hours {
+    color: #484848;
+    font-size: 22px;
+    font-family:   'Arvo', serif;
+
+}
+
+.restaurant-logo {
+    height: 30%;
+}
+
+.restimg {
+    height: 80px;
+}
+
+
+/* News */

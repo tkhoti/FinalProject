@@ -585,6 +585,10 @@ h2, .sec1-spanh {
 
 footer {
     background-color: aliceblue;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
 .div-subscribe {
@@ -594,7 +598,6 @@ footer {
     border-radius: 5px;
     max-width: 500px;
     width: auto;
-    padding: 20px;
 }
 
 .p-subscribe {
@@ -611,7 +614,6 @@ input[type=text], input[type=email] {
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
   }
   
   input[type=submit] {
@@ -627,3 +629,42 @@ input[type=text], input[type=email] {
     font-size: 20px;
     font-weight: 500;
   }
+
+  .div-social {
+    
+    padding-top: 20px;
+  }
+  
+  .socicon{
+    color: #C69A63;
+    font-size: 50px;
+    margin-right: 10px;
+  }
+
+  .p-contact {
+    color: #484848;
+    font-size: 18px;
+    font-family:   'Arvo', serif;
+    margin: 10px auto;
+    width: auto;
+  }
+
+  .h-contact {
+    color: #C69A63;
+    font-size: 20px;
+    font-weight: 550;
+    font-family:   'Arvo', serif;
+    text-transform: uppercase;
+  }
+
+  .contact {
+      margin-right:20px;
+      margin-top: 20px;
+  }
+
+  .div-contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+

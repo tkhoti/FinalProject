@@ -1,7 +1,7 @@
 /* Header Styling */
 
 header {
-    padding: 30px 50px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     background-color: aliceblue;
@@ -29,7 +29,7 @@ header {
 
 /* forfixing header */
 body {
-    padding-top: 106.69px;
+    padding-top: 81.69px;
 }
 
 
@@ -47,12 +47,12 @@ h2, .sec1-spanh {
     font-family:  'Arvo', serif;
     font-weight: 900;
     color: #484848;
-    font-size: 44px;
+    font-size: 31px;
     margin-left: 30px;
 }
 
 #Search {
-    height: 45px;
+    height: 40px;
     border-radius: 20px;
     margin-left: 30px;
     border-width: 5px;
@@ -71,7 +71,7 @@ h2, .sec1-spanh {
     background-image: url('../images/cafe.jpg');
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 350px;
     width: auto;
     margin: 30px 10px;
     position: relative;
@@ -81,21 +81,21 @@ h2, .sec1-spanh {
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 90px;
-    top: 140px;
+    left: 50px;
+    top: 30px;
     font-family:  'Arvo', serif;
     font-weight: bold;
     color: #FFFFFF;
-    font-size: 165px;
+    font-size: 110px;
 }
 
 .Sec1-span {
-    font-size: 84px;
+    font-size: 60px;
 }
 
 .Sec1-span::after {
     content: '';
-    height: 5px;
+    height: 3px;
     width: 30%;
     background-color: #FFFFFF;
     display: flex;
@@ -110,8 +110,8 @@ h2, .sec1-spanh {
 }
 
 .sec1-div2 {
-    height: 150px;
-    width: 400px;
+    height: 105px;
+    width: 280px;
     display: flex;
     align-items: center;
     box-shadow: 5px 10px 8px #DEDEDE;
@@ -120,7 +120,7 @@ h2, .sec1-spanh {
 
 .sec1-p2 {
     color: #484848;
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Arvo', serif;
     font-weight: bolder;
     margin: 0 auto;
@@ -128,7 +128,7 @@ h2, .sec1-spanh {
 
 .sec1-p2::after {
     content: '';
-    height: 2px;
+    height: 1.5px;
     width: 100%;
     background-color: #C69A63;
     display: flex;
@@ -151,15 +151,15 @@ h2, .sec1-spanh {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 106.69px;
-    padding-bottom: 70px;
+    padding-top: 81.69px;
+    padding-bottom: 49px;
 }
 
 .h3{
     font-family:  'Arvo', serif;
     font-weight: 900;
     color: #484848;
-    font-size: 44px;
+    font-size: 35px;
     display: flex;
 }
 
@@ -167,7 +167,7 @@ h2, .sec1-spanh {
 
     content: '';
     height: 3px;
-    width: 500px;
+    width: 250px;
     background-color: #C69A63;
     display: flex;
     margin: 20px;
@@ -175,8 +175,8 @@ h2, .sec1-spanh {
 }
 
 .div-youtube {
-    height: 450px;
-    width: 800px;
+    height: 315px;
+    width: 560px;
     position: relative;
     border-radius: 20px;
     display: inline-block;
@@ -204,8 +204,8 @@ h2, .sec1-spanh {
 
 .div-coco{
     display: inline-block;
-    height: 450px;
-    width: 800px;
+    height: 315px;
+    width: 560px;
     border-radius: 20px;
     box-shadow: 5px 10px 8px #DEDEDE;
 }
@@ -213,12 +213,12 @@ h2, .sec1-spanh {
 .coco-description {
     display: inline-block;
     vertical-align: middle;
-    margin-left: 50px;    
+    margin-left: 20px;    
 }
 
 .h-coco{
     color: #000000;
-    font-size: 100px;
+    font-size: 65px;
     font-weight: bold;
     font-family:   'Arvo', serif;
 }
@@ -235,8 +235,8 @@ h2, .sec1-spanh {
 
 
 .coco-text {
-    width: 300px;
-    font-size: 20px;
+    width: 210px;
+    font-size: 15px;
     color: #484848;
     font-family:   'Arvo', serif;
     
@@ -251,8 +251,8 @@ h2, .sec1-spanh {
 
 .buy-ticket {
     margin-top: 20px;
-    height: 70px;
-    width: 210px;
+    height: 49px;
+    width: 140px;
     background-color: #FFC80A;
     border-radius: 20px;
     display: flex;
@@ -263,7 +263,7 @@ h2, .sec1-spanh {
 
 .buy {
     color: #FFFBF1;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     font-family:   'Arvo', serif;
 
@@ -284,8 +284,8 @@ h2, .sec1-spanh {
 }
 
 .movie {
-    height: 590px;
-    max-width: 475px;
+    height: 450px;
+    max-width: 320px;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -295,7 +295,7 @@ h2, .sec1-spanh {
 
 .movie-bckg1 {
     background-image: url('../images/snowman.png');
-    height: 380px;
+    height: 250px;
     width: 100%;
     background-size: cover;
     background-position-x: center
@@ -304,7 +304,7 @@ h2, .sec1-spanh {
 
 .movie-bckg2 {
     background-image: url('../images/theforeigner.png');
-    height: 380px;
+    height: 250px;
     width: 100%;
     background-size: cover;
     background-position-x: center
@@ -313,7 +313,7 @@ h2, .sec1-spanh {
 
 .movie-bckg3 {
     background-image: url('../images/starwars.png');
-    height: 380px;
+    height: 250px;
     width: 100%;
     background-size: cover;
     background-position-x: center
@@ -321,7 +321,7 @@ h2, .sec1-spanh {
 
 .h-movie{
     color: #000000;
-    font-size: 34px;
+    font-size: 25px;
     font-weight: bold;
     font-family:   'Arvo', serif;
     margin-top: 10px;
@@ -339,19 +339,19 @@ h2, .sec1-spanh {
 
 
 .movie-text {
-    width: 400px;
-    font-size: 20px;
+    width: 280px;
+    font-size: 14px;
     color: #484848;
     font-family:   'Arvo', serif;
-    text-indent: 20px;
+    text-indent: 10px;
     
 }
 
 .buy-ticket2 {
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 70px;
-    width: 210px;
+    height: 49px;
+    width: 147px;
     background-color: #FFC80A;
     border-radius: 20px;
     display: flex;
@@ -362,7 +362,7 @@ h2, .sec1-spanh {
 
 .fa-arrow-circle-right {
     color: #FFC80A;
-    font-size: 60px;
+    font-size: 45px;
 }
 
 .buy-ticket:hover, .buy-ticket2:hover {
@@ -389,7 +389,7 @@ h2, .sec1-spanh {
 }
 
 .shop {
-    height: 185px;
+    height: 129px;
     width: 22%;
     box-shadow: 5px 10px 8px #DEDEDE;
     display: flex;
@@ -402,7 +402,7 @@ h2, .sec1-spanh {
 .department {
     color: #000000;
     width: 50%;
-    font-size: 30px;
+    font-size: 23px;
     font-weight: bold;
     font-family:   'Arvo', serif;
     
@@ -410,7 +410,7 @@ h2, .sec1-spanh {
 
 .department::after{
     color: #484848;
-    font-size: 20px;
+    font-size: 16px;
     font-family:   'Arvo', serif;
     display: block;
 
@@ -475,9 +475,9 @@ h2, .sec1-spanh {
 }
 
 .restaurant {
-    width: 400px;
-    height: 375px;
-    padding: 50px;
+    width: 280px;
+    height: 260px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -486,7 +486,7 @@ h2, .sec1-spanh {
 
 .h-restaurant {
     color: #000000;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
     font-family:   'Arvo', serif;
 
@@ -503,7 +503,7 @@ h2, .sec1-spanh {
 
 .rest-tel, .rest-hours {
     color: #484848;
-    font-size: 22px;
+    font-size: 18px;
     font-family:   'Arvo', serif;
 
 }
@@ -513,7 +513,7 @@ h2, .sec1-spanh {
 }
 
 .restimg {
-    height: 80px;
+    height: 70px;
 }
 
 
@@ -552,7 +552,7 @@ h2, .sec1-spanh {
 
 .h-bignews {
     color: #C69A63;
-    font-size: 72px;
+    font-size: 55px;
     font-weight: bold;
     font-family:   'Arvo', serif;
     margin: 36px auto 30px 30px;
@@ -560,15 +560,15 @@ h2, .sec1-spanh {
 
 .h-news {
     color: #C69A63;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     font-family:   'Arvo', serif;
-    margin: 36px auto 30px 30px;
+    margin: 30px auto 15px 20px;
 }
 
 .p-news {
     color: #484848;
-    font-size: 20px;
+    font-size: 17px;
     font-family:   'Arvo', serif;
     margin-bottom: 35px;
     text-indent: 5%;
@@ -576,7 +576,7 @@ h2, .sec1-spanh {
 
 .p-news::first-letter {
     color: #C69A63;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 900;
     font-family:   'Arvo', serif;
 }
@@ -598,15 +598,16 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     border-radius: 5px;
-    max-width: 500px;
+    max-width: 350px;
     width: auto;
+    margin-right: 5%;
 }
 
 .p-subscribe {
     font-family:  'Arvo', serif;
     font-weight: 900;
     color: #484848;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 input[type=text], input[type=email] {
@@ -628,24 +629,25 @@ input[type=text], input[type=email] {
     border-radius: 4px;
     cursor: pointer;
     font-family:  'Arvo', serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
   }
 
   .div-social {
     
     padding-top: 20px;
+    width: 200px;
   }
   
   .socicon{
     color: #C69A63;
-    font-size: 50px;
+    font-size: 30px;
     margin-right: 10px;
   }
 
   .p-contact {
     color: #484848;
-    font-size: 18px;
+    font-size: 15px;
     font-family:   'Arvo', serif;
     margin: 10px auto;
     width: auto;
@@ -653,15 +655,16 @@ input[type=text], input[type=email] {
 
   .h-contact {
     color: #C69A63;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 550;
     font-family:   'Arvo', serif;
     text-transform: uppercase;
   }
 
   .contact {
-      margin-right:20px;
+      margin-right:10px;
       margin-top: 20px;
+    
   }
 
   .div-contact {

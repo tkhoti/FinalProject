@@ -26,6 +26,13 @@ header {
     font-family: 'Arvo', serif;
 }
 
+.burger {
+    display: none;
+    font-size: 40px;
+    color: #C69A63;
+    font-weight: bold;
+}
+
 
 /* forfixing header */
 body {
@@ -111,7 +118,7 @@ h2, .sec1-spanh {
 
 .sec1-div2 {
     height: 105px;
-    width: 280px;
+    width: 22%;
     display: flex;
     align-items: center;
     box-shadow: 5px 10px 8px #DEDEDE;
@@ -120,7 +127,7 @@ h2, .sec1-spanh {
 
 .sec1-p2 {
     color: #484848;
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Arvo', serif;
     font-weight: bolder;
     margin: 0 auto;
@@ -293,6 +300,19 @@ h2, .sec1-spanh {
     box-shadow: 5px 10px 8px #DEDEDE;
 }
 
+.stcoco {
+    display: none;
+}
+
+.movie-bckg4 {
+    background-image: url('../images/coco.jpg');
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position-x: center
+}
+
+
 .movie-bckg1 {
     background-image: url('../images/snowman.png');
     height: 250px;
@@ -386,11 +406,12 @@ h2, .sec1-spanh {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    margin: auto 2%;
 }
 
 .shop {
     height: 129px;
-    width: 22%;
+    width: 250px;
     box-shadow: 5px 10px 8px #DEDEDE;
     display: flex;
     justify-content: space-evenly;

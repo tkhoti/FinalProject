@@ -183,12 +183,11 @@ h2, .sec1-spanh {
 
 .div-youtube {
     height: 315px;
-    width: 560px;
+    width: 45%;
     position: relative;
     border-radius: 20px;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 30px;
 }
 
 .youtube {
@@ -200,6 +199,7 @@ h2, .sec1-spanh {
     border-radius: 20px;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 
 }
 
@@ -212,7 +212,7 @@ h2, .sec1-spanh {
 .div-coco{
     display: inline-block;
     height: 315px;
-    width: 560px;
+    width: 45%;
     border-radius: 20px;
     box-shadow: 5px 10px 8px #DEDEDE;
 }
@@ -288,7 +288,10 @@ h2, .sec1-spanh {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
+
+
 
 .movie {
     height: 450px;
@@ -298,11 +301,10 @@ h2, .sec1-spanh {
     flex-direction: column;
     align-items: center;
     box-shadow: 5px 10px 8px #DEDEDE;
+    margin-bottom: 10px;
 }
 
-.stcoco {
-    display: none;
-}
+
 
 .movie-bckg4 {
     background-image: url('../images/coco.jpg');
@@ -312,13 +314,17 @@ h2, .sec1-spanh {
     background-position-x: center
 }
 
+.stcoco {
+    display: none;
+}
+
 
 .movie-bckg1 {
     background-image: url('../images/snowman.png');
     height: 250px;
     width: 100%;
     background-size: cover;
-    background-position-x: center
+    background-position-x: center;
 }
 
 
@@ -383,6 +389,7 @@ h2, .sec1-spanh {
 .fa-arrow-circle-right {
     color: #FFC80A;
     font-size: 45px;
+    margin-top: 10px;
 }
 
 .buy-ticket:hover, .buy-ticket2:hover {
@@ -493,10 +500,11 @@ h2, .sec1-spanh {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .restaurant {
-    width: 280px;
+    width: 260px;
     height: 260px;
     padding: 20px;
     display: flex;

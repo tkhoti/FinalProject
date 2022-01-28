@@ -202,6 +202,8 @@ h2, .sec1-spanh {
 .youtube {
     position: absolute;
     border-radius: 20px;
+    width: 100%;
+    height: 100%; 
 }
 .cover {
     position: absolute;

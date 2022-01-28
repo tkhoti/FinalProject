@@ -26,36 +26,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     
 </head>
+
 <body>
     <header>
-        <a href="index.html">
-            <img class="logo" src="images/LOGO.svg" alt="LOGO">
-        </a>
 
-        <nav>
-            <ul class="nav-ul">
-                
-                <li class="nav-li">
-                    <a class="nav-a"  href="#Shopping">Shopping</a>
-                </li>
-                <li class="nav-li">
-                    <a class="nav-a"  href="#cinema">Cinema</a>
-                </li>
-                <li class="nav-li">
-                    <a class="nav-a"  href="#Restaurants">Restaurants</a>
-                </li>
-                <li class="nav-li">
-                    <a class="nav-a"  href="#News">News</a>
-                </li>
-                <li class="nav-li">
-                    <a class="nav-a" href="#footer">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="div-nav">
+            <a href="index.html">
+                <img class="logo" src="images/LOGO.svg" alt="LOGO">
+            </a>
+    
+            <nav  class="nav-bar" id="nav">
+                <ul class="nav-ul">
+                    
+                    <li class="nav-li">
+                        <a class="nav-a"  href="#Shopping">Shopping</a>
+                    </li>
+                    <li class="nav-li">
+                        <a class="nav-a"  href="#cinema">Cinema</a>
+                    </li>
+                    <li class="nav-li">
+                        <a class="nav-a"  href="#Restaurants">Restaurants</a>
+                    </li>
+                    <li class="nav-li">
+                        <a class="nav-a"  href="#News">News</a>
+                    </li>
+                    <li class="nav-li">
+                        <a class="nav-a" href="#footer">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <div class="burger" id="burger">
+                <i class="fas fa-bars"></i>
+            </div>
 
-        <div class="burger">
-            <i class="fas fa-bars"></i>
+
         </div>
+
+        
 
     </header>
 
@@ -311,7 +319,7 @@
               <input type="text" id="fname" name="name" placeholder="Name">
               <input type="email" id="email" name="email" placeholder="E-mail">
                           
-              <input type="submit" value="Subscribe">
+              <input type="submit" id="submit" value="Subscribe">
             </form>
         </div>
 
@@ -356,6 +364,8 @@
 
         
     </footer>
+
+    <script src="script.js"></script>
 
     
 </body>

@@ -33,6 +33,22 @@ header {
     font-family: 'Arvo', serif;
 }
 
+.nav-a::after {
+    content: ' ';
+    background-color: #C69A63;
+    width: 0%;
+    height: 2px;
+    margin-top: 10px;
+    display: flex;
+    transition: all .5s linear;
+}
+
+.nav-a:hover::after{
+    width: 80%;
+}
+
+
+
 .burger {
     display: none;
     font-size: 40px;
